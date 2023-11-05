@@ -3,11 +3,11 @@ package OrdHanterarPaket;
 public class TextRaknare {
 
 
-    private String texten;
+    private String texten;//bööö
 
     public TextRaknare(String inTexten) {
 
-        texten = inTexten;//////hej å hå
+        texten = inTexten;
 
     }
 
