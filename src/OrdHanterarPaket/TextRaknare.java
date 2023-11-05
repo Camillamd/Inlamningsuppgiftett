@@ -3,7 +3,7 @@ package OrdHanterarPaket;
 public class TextRaknare {
 
 
-    private String texten;//böööbuu
+    private String texten;
 
     public TextRaknare(String inTexten) {
 
