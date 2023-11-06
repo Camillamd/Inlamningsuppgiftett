@@ -12,10 +12,10 @@ public class TextHanterarMain {
 
 
         int antalInmatadeRader = textRaknareEtt.raknaRader();
-        System.out.println("Antal rader:" + antalInmatadeRader);
+        System.out.println("Antal rader är:" + antalInmatadeRader);
 
         int inmatadeAntalTecken = textRaknareEtt.raknaTecken();
-        System.out.println("Antal tecken är: " + inmatadeAntalTecken);
+        System.out.println("Antal tecken är:" + inmatadeAntalTecken);
 
 
     }
@@ -25,7 +25,7 @@ public class TextHanterarMain {
         Scanner konsollasare = new Scanner(System.in);
         String helaTexten = "";
 
-        System.out.println("Skriv in din önskade text. För att avsluta skriver du stop ");
+        System.out.println("Var vänlig och skriv in din önskade text. För att avsluta skriver du stop ");
 
         boolean finnsStop = false;
         while (finnsStop == false) {
